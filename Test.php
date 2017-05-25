@@ -19,7 +19,7 @@ class ArithmeticTest extends PHPUnit_Framework_TestCase {
      */
     public function testAdd() {
         // 引数に3,5を渡すと8が返ってくることを確認する
-        $this->assertEquals(7, $this->object->add(3, 5));
+        $this->assertEquals(8, $this->object->add(3, 5));
         // 引数に15,30を渡すと45が返ってくることを確認する
         $this->assertEquals(45, $this->object->add(15, 30));
     }
